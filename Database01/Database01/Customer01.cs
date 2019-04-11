@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Database01
 {
-    public partial class Form1 : Form
+    public partial class Customer01 : Form
     {
-        public Form1()
+        public Customer01()
         {
             InitializeComponent();
-        }
-
-        private void kundenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Customer01 customer01 = new Customer01();
-            customer01.MdiParent = this;
-            customer01.Show();
         }
     }
 }
